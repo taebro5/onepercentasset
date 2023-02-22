@@ -1,0 +1,23 @@
+.contact-menu {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.contact-icon {
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
