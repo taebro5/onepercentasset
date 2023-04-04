@@ -256,14 +256,8 @@ h6 {
 
 .contact-us {
     min-height: 100vh;
-}
-
-.contact-us::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url("../img/bg/last_building.png");
 }
 
 .border-dot {
